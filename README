@@ -1,0 +1,12 @@
+Weather App
+|
+|__ public -> (main file)
+    |
+    |__ index.html
+    |__ style.css
+    |__ app.js
+    |__ image/ ->(folder)
+|
+|___ server.js
+
+this app using zip code of the city to know the weather there ;
