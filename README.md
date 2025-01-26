@@ -1,2 +1,2 @@
-# wether
+# weather
  
