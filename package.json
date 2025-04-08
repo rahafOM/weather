@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-     "start": "node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Weather Journal App using Node.js, Express, and OpenWeatherMap API"
+  "description": "Weather Journal App using Node.js, Express, and OpenWeatherMap API",
+  "bugs": {
+    "url": "https://github.com/your-username/weather-app/issues"
+  },
+  "homepage": "https://github.com/your-username/weather-app#readme"
 }
