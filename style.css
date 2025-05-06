@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Quicksand:wght@300..700&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/M-Maggs-pixabay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#app {
+    color: antiquewhite;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    margin: 200px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+div {
+    padding: 10px;
+}
+
+.zip,
+.feel {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.zip #zip,
+.feel #feelings {
+    background-color: antiquewhite;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px rgb(82, 82, 151) solid;
+}
+
+#generate {
+    cursor: pointer;
+    margin-left: 37%;
+    width: 80px;
+    padding: 0 5px;
+    background-color: rgb(55, 5, 102);
+    color: antiquewhite;
+    border-radius: 8px;
+    border: 2px double;
+}
+
+.entry {
+    font-size: 20px;
+}
+
+.entry .title {
+    padding: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    #app {
+        padding: 0.5em;
+    }
+
+    button {
+        width: 100%;
+
+    }
+}
